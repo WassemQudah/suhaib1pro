@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: white;
+}
+.container-header {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'EB Garamond', serif;
+font-family: 'Roboto', sans-serif;
+}
+.ul-style {
+  list-style: none;
+  color: #878785;
+}
+.head1 {
+  display: inline-block;
+  padding: 5px;
+  color: #878785;
+}
+.head1 > a {
+  text-decoration: none;
+  color: #878785;
+}
+.select1{
+    border: none;
+    background-color:#f4f4f4;
+    color:#878785 ;
+    
+}
+.logo-container{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-section{
+    display: inline;
+}
+.logo-section>img{
+    width: 70px;
+    height: 70px;
+}
+.cart{
+    padding-right: 40px;
+}
+.cart>p{
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.container2{
+    background-color:#f4f4f4 ;
+}
+.list-con2{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;}
+.li-style2>a{
+color:#878785 ;
+text-decoration: none;
+padding: 5px;
+text-transform: uppercase;
+
+}
+.li-style2>a:hover{
+background-color:#5a88ca;
+color:white ;
+
+}
+.boxes-container{
+display: flex;
+justify-content: center;
+align-content: center;
+gap: 2rem;
+padding: 30px;
+background-color: #f4f4f4;
+}
+.box-all{
+    padding: 4rem;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+.box-all>i,.box-all>a{
+    font-size: 40px;
+}
+.blue{
+    background-color: #5a88ca;
+}
+.yellow{
+    background-color: #ffd900;
+}
+.red{
+    background-color: #fa8072;
+}
+.trquaz{
+    background-color: #4abebd;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    gap: 1em;
+    padding-left:10rem;
+    width: 100rem;
+}
+header>p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+}
+.iphone-card>img{
+border: 1px solid #ddd8d8;
+}
+.price1{
+    color:#6993cf ;
+    font-size: 15px;
+}
+.price2{
+    text-decoration: line-through;
+    font-size: 15px;
+
+}
